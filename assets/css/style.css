@@ -29,8 +29,8 @@ body {
 #buttons-view,
 #city-input {
 	margin-top: 1rem;
-    border: 1px solid darkturquoise
-    opacity: 0.6;;
+    border: 1px solid darkturquoise;
+    opacity: 0.6;
 	border-radius: 0.25rem;
 }
 
