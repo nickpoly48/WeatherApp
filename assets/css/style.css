@@ -6,36 +6,45 @@ p {
 }
 
 body {
-	background-color: #efefe8ff;
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron {
-	background-color: lightseagreen;
+    background: rgba(0, 206, 209, 0.4);
 }
 
 .r2a {
-	border: 1px solid lightseagreen;
+	border: 1px solid darkturquoise;
 	border-radius: 0.25rem;
-	padding-left: 1rem;
+    padding-left: 1rem;
+    background: rgba(0, 206, 209, 0.4);
 }
 
 .btn-primary {
-	background-color: lightseagreen;
+    background: rgba(0, 206, 209, 0.4);
 }
 
 #buttons-view,
 #city-input {
 	margin-top: 1rem;
-	border: 1px solid lightseagreen;
+    border: 1px solid darkturquoise
+    opacity: 0.6;;
 	border-radius: 0.25rem;
 }
 
 .list-group-item {
-	background-color: #efefe8ff;
+    background: rgba(0, 206, 209, 0.4);
+    
+}
+
+.list-group-item:hover {
+    background: rgba(0, 255, 127, 0.4);
 }
 
 .card {
-	background-color: lightseagreen;
+    background: rgba(0, 206, 209, 0.4);
 }
 
 .card-body {
@@ -43,27 +52,27 @@ body {
 }
 
 .uvGreen {
-	background-color: lightgreen;
+	background-color: green;
 	border-radius: 5px;
 }
 
 .uvYellow {
-	background-color: lightyellow;
+	background-color: yellow;
 	border-radius: 5px;
 }
 
 .uvOrange {
-	background-color: lightsalmon;
+	background-color: orange;
 	border-radius: 5px;
 }
 
 .uvRed {
-	background-color: palevioletred;
+	background-color: red;
 	border-radius: 5px;
 }
 
 .uvPurple {
-	background-color: violet;
+	background-color: purple;
 	border-radius: 5px;
 }
 
